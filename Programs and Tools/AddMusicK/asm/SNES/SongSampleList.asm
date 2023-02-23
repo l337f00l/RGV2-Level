@@ -1,4 +1,4 @@
-org $1BED6E
+org $1DB001
 
 
 db $53, $54, $41, $52				; Needed to stop Asar from treating this like an xkas patch.
@@ -9,7 +9,7 @@ SampleGroupPtrs:
 
 dw $0000, SGPointer01, SGPointer02, SGPointer03, SGPointer04, SGPointer05, SGPointer06, SGPointer07, SGPointer08, SGPointer09, SGPointer0A, SGPointer0B, SGPointer0C, SGPointer0D, SGPointer0E, SGPointer0F
 dw SGPointer10, SGPointer11, SGPointer12, SGPointer13, SGPointer14, SGPointer15, SGPointer16, SGPointer17, SGPointer18, SGPointer19, SGPointer1A, SGPointer1B, SGPointer1C, SGPointer1D, SGPointer1E, SGPointer1F
-dw SGPointer20, SGPointer21, SGPointer22, SGPointer23, SGPointer24, SGPointer25, SGPointer26, SGPointer27, SGPointer28
+dw SGPointer20, SGPointer21, SGPointer22, SGPointer23, SGPointer24, SGPointer25, SGPointer26, SGPointer27, SGPointer28, SGPointer29
 
 
 SGPointer01:
@@ -123,4 +123,7 @@ dw $0000, $0001, $0002, $0003, $0004, $0005, $0006, $0007, $0008, $0009, $000A, 
 SGPointer28:
 db $14
 dw $0000, $0001, $0002, $0003, $0004, $0005, $0006, $0007, $0008, $0009, $000A, $000B, $000C, $0014, $000E, $000F, $0010, $0014, $0012, $0013
+SGPointer29:
+db $20
+dw $001C, $001D, $001E, $001F, $0020, $0021, $0022, $0023, $0024, $0014, $0026, $0027, $0028, $0014, $002A, $0014, $002C, $0014, $002E, $0014, $0030, $0031, $0032, $0033, $0034, $0035, $0036, $0037, $0038, $0039, $003A, $003B
 SGEnd:
