@@ -2,14 +2,14 @@
 281	0	Solid for Mario, but allows sprites to pass. If you don't like the look of the normal yellow sprite-pass block, I've also included a block graphic in the same style as the red light switch, set to act the same as this (see 6C8).
 284	0	Kills all sprites which interact with blocks - even if you're riding Yoshi, and even if Yoshi has a sprite in his mouth. The version at block number 295 will also kill Mario; and the version at 45F will simply be solid for Mario. Note that if you destroy a vanilla spring, it will warp Mario. This is an unavoidable behavior of all sprite killers, unless you apply the included optional patch.
 285	0	Solid for Mario, but will be shattered by kicked shells and throwblocks. Kicked shells won't bounce back when they hit it, although you can change this in the settings.
-286	0	If anything tries to go through the block going right, it will block it, otherwise it will let them pass.
-287	0	If anything tries to go through the block going left, it will block it, otherwise it will let them pass.
+286	0	Solid if anything goes right
+287	0	Solid if anything goes left
 28a	0	Spawns you on Yoshi when touched.
 28f	0	InvisibleKaizoBlockNeverReappearsAfterDeath.asm. Use ConditionalMap16 flag 1. See instructions for more.
 291	0	Kills Mario instantly, even if on Yoshi.
 294	0	Hurts Mario, but allows sprites to pass. By default, it's set so that a vine will eat through the blocks. You can change this, though.
 295	0	Kills all sprites which interact with blocks - even if you're riding Yoshi, and even if Yoshi has a sprite in his mouth. The version at block number 295 will also kill Mario; and the version at 45F will simply be solid for Mario. Note that if you destroy a vanilla spring, it will warp Mario. This is an unavoidable behavior of all sprite killers, unless you apply the included optional patch.
-297	0	If anything tries to go through the block going up, it will block it, otherwise it will let them pass.
+297	0	Solid if anything goes up
 299	0	A block that acts like a stationary Swooper.
 29e	0	A normal solid grab-block, except you don't have to stop and press Y in order to grab it. Instead, you'll automatically pick it up simply if you're HOLDING Y. This means that you could simply run toward it and automatically pick it up, without it stopping your momentum.
 29f	0	Will spawn a throwblock into your hands whenever you grab it (as many times as you want). As the name suggests, if you use it with the ThrowblockSpawnerOnlyAllowsOneThrowblockOnscreen.asm UberASM, it won't allow you to spawn more than one throwblock at a time from these (or allow more than one throwblock anywhere else on screen).
