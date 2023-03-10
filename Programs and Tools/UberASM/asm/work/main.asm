@@ -1,6 +1,6 @@
 incsrc "asm/work/library.asm"
 incsrc "../../other/macro_library.asm"
-!level_nmi	= 0
+!level_nmi	= 1
 !overworld_nmi	= 0
 !gamemode_nmi	= 1
 !global_nmi	= 0

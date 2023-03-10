@@ -3,9 +3,9 @@
 ;If !FreezeMarioCompletely set, use Uber FreezeMarioCompletelyOnFlag.asm, to freeze in horizontal levels too
 
 !MusicRAMTrigger = $0DF2 ; if set, will skip the end-level music, and keep playing your normal level music
-!FreezeMarioCompletely = 1
-!GoalWalk = 0	; If 0, will simply remain in place after getting, instead of walking (though still gravity)
-!SpritesTurnIntoCoins = 1
+!FreezeMarioCompletely = 0
+!GoalWalk = 1	; If 0, will simply remain in place after getting, instead of walking (though still gravity)
+!SpritesTurnIntoCoins = 0
 
 ; Secret exit functionality?
 
