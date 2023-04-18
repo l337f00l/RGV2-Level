@@ -13,6 +13,7 @@ level:
 13B  LevelHubStuff.asm
 13C  LevelHubStuff.asm
 137  DisableLeftRightUpFireball.asm
+10   noclimb.asm
 
 A1  MusicPlaylist.asm
 A3  ShootingPowerups.asm

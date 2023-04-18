@@ -28,6 +28,8 @@ init:
 
 main:
 %call_library(DisableButtons_main)
+%call_library(SelectKill_main)
+%call_library(noclimb_main)
 ;%call_library(UberFileTwo_main)
     rtl
 

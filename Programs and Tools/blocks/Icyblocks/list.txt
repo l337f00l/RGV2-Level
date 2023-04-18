@@ -1,0 +1,24 @@
+1003:130 iceblock.asm
+1004:130 icecoinblock.asm
+1005:130 icemultiplecoinquestionblock.asm
+1006:130 icenoteblock.asm
+1007:130 iceonoffblock.asm
+1013:130 icecoinonrange.asm
+1014:130 ice_anytile_block.asm
+1023:130 frozen_pswitch.asm
+
+1017:130 ice_yoshicoin_top.asm
+1027:130 ice_yoshicoin_bottom.asm
+
+1015:130 ice_32x32_topleft.asm
+1016:130 ice_32x32_topright.asm
+1025:130 ice_32x32_bottomleft.asm
+1026:130 ice_32x32_bottomright.asm
+
+1018:130 ice_divide_topleft.asm
+1019:130 ice_divide_topright.asm
+1028:130 ice_divide_bottomleft.asm
+1029:130 ice_divide_bottomright.asm
+
+1009:130 ice_map16--.asm
+100A:130 ice_map16++.asm

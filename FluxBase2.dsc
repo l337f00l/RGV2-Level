@@ -312,6 +312,26 @@
 6b7	0	Invisible kaizo block, only activated by kicked sprites.
 6c8	0	This was supposed to be the original main block that not only doesn't let Yoshi pass, but forces you to dismount him when you touch it. However, it has a hilarious unintended effect where, when you touch it with Yoshi, you did indeed dismount him, but are also vertically screen-wrapped (kind of similar to the p-switch and sprite killer glitch) and then yeeted to the right at an even greater speed than cannon speed. I kept it because it's actually kind of cool and hilarious.
 b70	0	Will increase the A button ammo.
+c03	0	A frozen block that disappears when thawed.
+c04	0	A frozen coin.
+c05	0	A frozen multiple coin block.
+c06	0	A frozen note block.
+c07	0	A frozen ON-OFF block.
+c08	0	The top left of a 32x32 ice block that splits when thawed.
+c09	0	The top right of a 32x32 ice block that splits when thawed.
+c13	0	A frozen block that gives a coin.
+c14	0	A frozen version of tile 12F.
+c15	0	The top left of a 32x32 ice block that disappears when thawed.
+c16	0	The top right of a 32x32 ice block that disappears when thawed.
+c17	0	The top of a frozen Yoshi coin.
+c18	0	The bottom left of a 32x32 ice block that splits when thawed.
+c19	0	The bottom right of a 32x32 ice block that splits when thawed.
+c23	0	A frozen version of sprite 3E.
+c25	0	The bottom left of a 32x32 ice block that disappears when thawed.
+c26	0	The bottom right of a 32x32 ice block that disappears when thawed.
+c27	0	The bottom of a frozen Yoshi coin.
+c28	0	A frozen block that thaws into the previous map16 tile.
+c29	0	A frozen block that thaws into the next map16 tile.
 10fc	0	The top-left part of a 32x32 switch palace switch. By default this will NOT activate the normal switch palace switch stuff (not even the message). Instead, hitting it will simply press the switch down and activate an arbitrary RAM address ($0E1D), which you can then use for other purposes (including, for example, DelayBeforeRunningCodeTemplate.asm); or you can also set it to activate a specific color switch, too.
 10fd	0	The top-right part of a 32x32 switch palace switch. By default this will NOT activate the normal switch palace switch stuff (not even the message). Instead, hitting it will simply press the switch down and activate an arbitrary RAM address ($0E1D), which you can then use for other purposes (including, for example, DelayBeforeRunningCodeTemplate.asm); or you can also set it to activate a specific color switch, too.
 2d49	0	Complicated block. See instructions.

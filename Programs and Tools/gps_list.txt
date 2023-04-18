@@ -4,6 +4,32 @@
 
 B70:025  aButtonAmmo.asm
 
+C03:130  iceblock.asm
+C04:130  icecoinblock.asm
+C05:130  icemultiplecoinquestionblock.asm
+C06:130  icenoteblock.asm
+C07:130  iceonoffblock.asm
+C13:130  icecoinonrange.asm
+C14:130  ice_anytile_block.asm
+C23:130  frozen_pswitch.asm
+
+C17:130  ice_yoshicoin_top.asm
+C27:130  ice_yoshicoin_bottom.asm
+
+C15:130  ice_32x32_topleft.asm
+C16:130  ice_32x32_topright.asm
+C25:130  ice_32x32_bottomleft.asm
+C26:130  ice_32x32_bottomright.asm
+
+C08:130  ice_divide_topleft.asm
+C09:130  ice_divide_topright.asm
+C18:130  ice_divide_bottomleft.asm
+C19:130  ice_divide_bottomright.asm
+
+C28:130  ice_map16--.asm
+C29:130  ice_map16++.asm
+
+
 
 ; 229:025  Doors/VanillaDoor.asm
 

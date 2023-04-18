@@ -282,9 +282,9 @@
 91 0020 Undefined Sprite
 91 0022 0,0,1F4
 92 0020 A SMW Banzai Bill that faces left.
-92 0022 0,0,468 16,0,469 48,0,46B 32,16,46E 48,16,46F 0,32,470 16,32,471 32,32,472 48,32,473 0,48,474 16,48,475 48,48,477 16,48,193 32,0,18C 0,16,176
+92 0022 0,0,489 16,0,48A 48,0,48C 32,16,48F 48,16,490 0,32,491 16,32,492 32,32,493 48,32,494 0,48,495 16,48,496 48,48,498 16,48,193 32,0,18C 0,16,176
 92 0030 A SMW Banzai Bill that faces right.
-92 0032 0,0,478 16,0,479 32,0,47A 48,0,47B 0,16,47C 16,16,47D 32,16,47E 48,16,47F 0,32,480 16,32,481 32,32,482 48,32,483 0,48,484 16,48,485 32,48,486 48,48,487
+92 0032 0,0,499 16,0,49A 32,0,49B 48,0,49C 0,16,49D 16,16,49E 32,16,49F 48,16,4A0 0,32,4A1 16,32,4A2 32,32,4A3 48,32,4A4 0,48,4A5 16,48,4A6 32,48,4A7 48,48,4A8
 93 0020 Undefined Sprite
 93 0022 0,0,1E7 -16,0,1E6 -16,0,1E5 0,-16,1EE 0,-16,88
 94 0020 A Boo Ring which attaches to another sprite.\n- Extra bit: rotation direction (clockwise, counter-clockwise).\n- Extra byte 1: number of Boos.\n- Extra byte 2: space between each Boo.\n- Extra byte 3: radius.\n- Extra byte 4: speed.\n- Extra byte 5: sprite number to attach to.\n- Extra byte 6: X offset from the sprite.\n- Extra byte 7: Y offset from the sprite.\n- Extra byte 8: additional settings (format: ec--SSSS).\n- Extra bytes 9-12: set extra bytes 1-4 for the attached sprite.\n
@@ -312,9 +312,9 @@
 A0 0020 Custom Lemmy/Wendy boss.  Will appear as long as it's placed within spawn range.
 A0 0022 0,0,*  Custom   \nLemmy,Wendy*
 A5 0020 A Boomerang Bro from Super Mario Bros. 3. It walks back and forth, occasionally hopping and periodically throwing two boomerangs, which it will later try to catch.
-A5 0022 0,-16,489 0,0,48A 8,-16,48B
+A5 0022 0,-16,4A9 0,0,4AA 8,-16,4AB
 A6 0020 The Fire Bro from Super Mario Bros. 3. It walks around and occasionally hops. It periodically spits 2 fireballs at Mario.
-A6 0022 0,0,48D 0,-16,48C -8,0,48E
+A6 0022 0,0,4AD 0,-16,4AC -8,0,4AE
 A7 0020 Flying Horizontal Cloud\nExtra Byte 1:\n 00 Fly towards the player when spawned.\n 01 Fly towards the left.\n 02 Fly towards the left then right.\n 03 Fly towards the right.\n 04 Fly towards the right then left.\n 05 Fly back and forth first it flies towards the player then goes back to the opposite direction.\nExtra Byte 2: if clear wave movement, set no wave movement.
 
 A7 0022 -14,-9,6 8,-9,7 -3,0,EB
@@ -335,13 +335,13 @@ AD 0022 0,0,0
 AE 0020 Undefined Sprite
 AE 0022 0,0,0
 AF 0020 A Bowser Fire sprite that jumps in place.
-AF 0022 0,0,48F
+AF 0022 0,0,4AF
 B0 0020 Undefined Sprite
 B0 0022 0,0,0
 B1 0020 Undefined Sprite
 B1 0022 0,0,0
 B2 0020 A Bowser Statue that shoots cluster sprite fireballs.
-B2 0022 0,0,491 -8,-8,490
+B2 0022 0,0,4B1 -8,-8,4B0
 B5 0020 This is a swooper that won't move in any way.
 B5 0022 0,0,17C
 B6 0020 Baby Yoshi\n\nExtra Bytes (all 00 for vanilla)\n1 : Palette - 00(green), 01(red), 02(blue), 03(yellow)\n2 : Hunger (eats before growing)\n3 : Powerup eat value\n4 : Hop speed (80+ = no hops)
@@ -353,7 +353,7 @@ B7 0032 0,0,DC
 B8 0020 This should be spawned automatically from its associated UberASM file; see the readme for more details
 B8 0022 0,0,*Do Not\n Use! *
 B9 0020 A sprite which changes the water level to its position.
-B9 0022 0,0,492
+B9 0022 0,0,4B2
 BB 0020 This is an extended sprite shooter. Currently assumes the shot sprite is 8x8 and centers it accordingly.
 BB 0022 0,0,27 -4,4,B6
 BB 0030 This is an extended sprite shooter. Currently assumes the shot sprite is 16x16 and centers it accordingly.

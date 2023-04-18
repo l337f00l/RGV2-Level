@@ -36,7 +36,7 @@ FlyingMaxYspeed:	db $F4,$0C
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-!Body0			= $AC
+!Body0			= $AE
 !Body1			= $A2
 !Body2			= $A0
 !Body3			= $A4
@@ -44,17 +44,17 @@ FlyingMaxYspeed:	db $F4,$0C
 !BodyProp0		= $50
 !BodyProp1		= $10
 
-!Leg0			= $AA
-!Leg1			= $AB
-!Leg2			= $BA
-!Leg3			= $BB
+!Leg0			= $A9   ; AA
+!Leg1			= $B9   ; AB
+!Leg2			= $AC   ; BA
+!Leg3			= $AD   ; BB
 !LegProp0		= $17
 !LegProp1		= $57
 
 !Hand0			= $A8
 !Hand1			= $B8
-!Sweat0			= $A9
-!Sweat1			= $B9
+!Sweat0			= $AD ; formerly A9
+!Sweat1			= $FC ; empty, formerly B9
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 
