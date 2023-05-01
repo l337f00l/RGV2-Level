@@ -31,7 +31,7 @@
 ; Disabling bit 6 in both input bytes completely disables carrying and running.
 
 
-!InputByte2 = #%00000000
+!InputByte2 = #%10000000
 
 main:
 	LDA !InputByte1		; Load input

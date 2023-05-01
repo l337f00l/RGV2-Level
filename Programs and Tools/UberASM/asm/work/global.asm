@@ -22,7 +22,7 @@ dl $9083D1
 dl $9091D2
 dl $90DCEB
 dl $90FEDE
-dl $90E053
+dl $90E052
 dl $90F586
 dl $90DD5E
 dl $908111
@@ -30,7 +30,7 @@ dl $93A43B
 dl $90D84F
 dl $93A5A6
 dl $93F624
-dl $90E08C
+dl $90E08B
 dl $90F4C6
 dl $90D8B9
 dl $90F547

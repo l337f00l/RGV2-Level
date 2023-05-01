@@ -16,7 +16,7 @@ JMP MarioCorner : JMP MarioInside : JMP MarioHead
 !1540_val = $00	; If you use powerups, this should be $3E
 				; Carryable sprites uses it as the stun timer
 
-!ExtraByte1 = $08	; First extra byte
+!ExtraByte1 = $0A	; First extra byte
 !ExtraByte2 = $00	; Second extra byte
 !ExtraByte3 = $00	; Third extra byte
 !ExtraByte4 = $00	; Fourth extra byte
